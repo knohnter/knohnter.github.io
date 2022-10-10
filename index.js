@@ -3,9 +3,5 @@ let username = GetElementByID('name');
 let output = GetElementByID('output');
 
 btn.addEventListener('click', function() {
-    if(name == null){
-      
-    }else{
-        output.innerHTML = username.textContent; 
-    }
+    output.innerHTML = username.textContent; 
 }
