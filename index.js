@@ -6,6 +6,6 @@ btn.addEventListener('click', function() {
     if(name == null){
       
     }else{
-        output = username.textContent; 
+        output.innerHTML = username.textContent; 
     }
 }
