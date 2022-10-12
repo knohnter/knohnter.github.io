@@ -4,4 +4,4 @@ let output = GetElementByID('output');
 
 btn.addEventListener('click', function() {
     output.innerHTML = username.textContent; 
-})
+});
